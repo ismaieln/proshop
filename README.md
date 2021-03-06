@@ -111,3 +111,122 @@ Course progress and achievement
     5min
 
 30. Product Details Reducer & Action
+
+ <!-- week two -->
+
+Section 6: Adding The Shopping Cart
+5 / 5|53min
+
+31. Qty Select & Add To Cart Button
+    10min
+
+32. Cart Reducer & Add To Cart Action
+    12min
+
+33. Add To Cart Functionality
+    10min
+
+34. Cart Screen
+    17min
+
+35. Remove Items From Cart
+    5min
+    Section 7: Back End User Authentication
+    7 / 7|56min
+
+36. Clean Up By Using Controllers
+    5min
+
+37. User Authentication Endpoint
+    13min
+
+38. Brief Explanation of JWT (JSON Web Tokens)
+    4min
+
+39. Generate a JSON Web Token
+    5min
+
+40. Custom Authentication Middleware
+    16min
+
+41. Saving The Token In Postman
+    2min
+
+42. User Registration & Password Encryption
+    10min
+    Section 8: Front End User Authentication &
+    Profile
+    8 / 8|1hr 21min
+
+43. User Login Reducer & Action
+    11min
+
+44. User Login Screen & Functionality
+    17min
+
+45. Show User In Navbar & Logout
+    8min
+
+46. User Register Reducer, Action & Screen
+    12min
+
+47. Update Profile Endpoint
+    7min
+
+48. Profile Screen & Get User Details
+    17min
+
+49. Update User Profile
+    9min
+
+50. Navbar Name Bug
+    1min
+    Section 9: Checkout Process - Part 1
+    6 / 6|1hr 14min
+
+51. Shipping Screen & Save Address
+    15min
+
+52. Checkout Steps Component
+    5min
+
+53. Payment Screen & Save Payment Method
+    11min
+
+54. Place Order Screen
+    21min
+
+55. Order Controller & Route
+    6min
+
+56. Create Order
+    15min
+    Section 10: Checkout Process - Part 2
+    9 / 9|1hr 16min
+
+57. Get Order by ID Endpoint
+    5min
+
+58. Order Details Reducer & Action
+    4min
+
+59. Order Screen
+    12min
+
+60. Add check for order
+    1min
+
+61. Update To Paid Endpoint
+    5min
+
+62. Order Pay Reducer & Action
+    6min
+
+63. Adding PayPal Payments
+    20min
+
+64. Show Orders On Profile
+    18min
+
+65. User Details & Orders Reset
+    5min
