@@ -9,7 +9,6 @@ import {
   Form,
   Button,
   Card,
-  ListGroupItem,
 } from "react-bootstrap";
 import Message from "../components/Message";
 import { addToCart, removeFromCart } from "../actions/cartActions";
@@ -49,7 +48,7 @@ const CartScreen = ({ match, location, history }) => {
         ) : (
           <ListGroup variant='flush'>
             {cartItems.map((item) => (
-              <ListGroupItem key={item.product}>
+              <ListGroup.Item key={item.product}>
                 <Row>
                   <Col md={2}>
                     <Image src={item.image} alt={item.name} fluid rounded />
@@ -85,7 +84,7 @@ const CartScreen = ({ match, location, history }) => {
                     </Button>
                   </Col>
                 </Row>
-              </ListGroupItem>
+              </ListGroup.Item>
             ))}
           </ListGroup>
         )}
@@ -93,7 +92,7 @@ const CartScreen = ({ match, location, history }) => {
       <Col md={4}>
         <Card>
           <ListGroup variant='flush'>
-            <ListGroupItem>
+            <ListGroup.Item>
               <h2>
                 Subtotal ({cartItems.reduce((acc, item) => acc + item.qty, 0)})
                 items
@@ -102,8 +101,8 @@ const CartScreen = ({ match, location, history }) => {
               {cartItems
                 .reduce((acc, item) => acc + item.qty * item.price, 0)
                 .toFixed(2)}
-            </ListGroupItem>
-            <ListGroupItem>
+            </ListGroup.Item>
+            <ListGroup.Item>
               <Button
                 type='button'
                 className='btn-block'
@@ -112,7 +111,7 @@ const CartScreen = ({ match, location, history }) => {
               >
                 Proceed To Checkout
               </Button>
-            </ListGroupItem>
+            </ListGroup.Item>
           </ListGroup>
         </Card>
       </Col>
